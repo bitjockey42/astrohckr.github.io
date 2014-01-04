@@ -1,0 +1,5 @@
+title: hckr.log
+tagline: The personal blog of a hacker
+source:      _source
+destination: _site
+permalink: pretty
