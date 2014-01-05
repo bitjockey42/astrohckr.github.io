@@ -6,21 +6,21 @@ type: index
 
 <div class="blog-index">
   {% for post in site.posts %}
-    <div class="blog-row">
-      <header>
-        <div class="blog-info">
+  <div class="blog-row">
+    <header>
+      <div class="blog-info">
 
-          <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
-          <a class="blog-title" href="{{ post.url }}">{{ post.title }}</a>
+        <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
+        <a class="blog-title" href="{{ post.url }}">{{ post.title }}</a>
 
-        </div>
-      </header>
+      </div>
+    </header>
 
-
-        <div class="blog-content">
-          <p>{{ post.excerpt }}</p>
-        </div>
-
+    <div class="blog-content">
+      <p>{{ post.excerpt|markdownify }}</p>
+      <p><a href="{{ post.url }}">Read more &rarr;</a></p>
     </div>
+
+  </div>
   {% endfor %}
 </div>

@@ -40,3 +40,12 @@
     background: #fff;
     font-family: 'Open Sans', sans-serif;
 }
+
+.blog-content a {
+    color: #557aaa;
+    text-decoration: none;
+}
+
+.blog-content a:hover {
+    color: #e6b173;
+}
