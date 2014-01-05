@@ -10,7 +10,7 @@
 
 .nav-item {
     display: inline-block;
-    color: #fdfdfd;
+    color: #dfdfdf;
     text-decoration: none;
     font-family: "Anonymous Pro", sans-serif;
     text-transform: lowercase;
@@ -19,10 +19,12 @@
 }
 
 .nav-item:hover {
+    color: #fdfdfd;
     border-left: solid 5px #c5cc8f;
 }
 
 .nav-item-active {
+    color: #fff;
     border-left: solid 5px #7e8073;
 }
 
