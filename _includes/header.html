@@ -9,7 +9,7 @@
 <header>
   <div class="header">
     <h1 class="header-site-title">
-      {{ site.title }}/{{ page.slug }}/{% if page.layout == 'post' %}{{ page.date }}{% endif %}
+      {{ site.title }}/{{ page.slug }}/{{ page.date|date: "%Y-%m-%d" }}.log
     </h1>
     <span class="header-site-tagline">{{ site.tagline }}</span>
   </div>
