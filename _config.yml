@@ -2,3 +2,4 @@ title: hckr
 tagline: The personal blog of a hacker
 permalink: pretty
 exclude: [Gemfile, Gemfile.lock, README.md]
+markdown: redcarpet
