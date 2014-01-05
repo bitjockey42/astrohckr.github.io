@@ -22,7 +22,16 @@
       {% endcase %}
       
     </h1>
-    <span class="header-site-tagline">{{ site.tagline }}</span>
+    <span class="header-site-tagline">
+      {% case page.type %}
+        {% when 'index' %}
+          List directory contents
+        {% when 'single' %}
+          Read log
+        {% else %}
+          {{ site.tagline }}
+      {% endcase %}
+    </span>
   </div>
 </header>
 
