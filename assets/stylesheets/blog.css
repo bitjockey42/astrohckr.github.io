@@ -29,6 +29,10 @@
     color: #bf6060;
 }
 
+.blog-index-title:hover {
+    color: #cc8f8f;
+}
+
 .blog-index-excerpt {
     margin: 0;
     padding: 10px 25px;
