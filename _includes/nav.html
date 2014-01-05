@@ -1,9 +1,14 @@
 <nav>
   <div class="nav">
     <ul class="nav-ul">
-      <li><a class="nav-item" href="#">Logs</a></li>
-      <li><a class="nav-item" href="#">About</a></li>
-      <li><a class="nav-item nav-item-active" href="#">Code</a></li>
+      {% for site_page in site.pages %}
+        <li>
+          <a href="{{ site_page.url }}"
+             class="nav-item{% if site_page.slug == page.slug %} nav-item-active{% endif %}">
+            {{ site_page.slug }}
+          </a>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 </nav>
