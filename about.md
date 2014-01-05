@@ -5,4 +5,4 @@ slug: about
 title: About
 ---
 
-Hello
+I am a software engineer based in the Second City.

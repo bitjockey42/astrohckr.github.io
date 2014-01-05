@@ -9,10 +9,6 @@ task :write, [:title] do |t, args|
 layout: post
 title: #{args.title}
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
-category: putsomethinghere
-tags: 
- - tagshere
- - another one
 ---
     EOS
     end
