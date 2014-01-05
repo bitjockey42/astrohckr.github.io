@@ -1,7 +1,25 @@
 .nav-ul {
+    padding-left: 0;
     list-style-type: none;
+    margin-right: 25px;
 }
 
-.nav-ul li {
-
+.nav-item {
+    display: block;
+    color: #fdfdfd;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    text-transform: lowercase;
+    padding: 5px 5px;
+    margin-bottom: 15px;
 }
+
+.nav-item:hover {
+    background: #c5cc8f;
+}
+
+.nav-item-active {
+    background: #b6c7b3;
+    border-left: solid 5px #7e8073;
+}
+
