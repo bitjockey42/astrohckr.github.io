@@ -12,14 +12,14 @@
     text-transform: lowercase;
     padding: 5px 5px;
     margin-bottom: 15px;
+    border-left: solid 5px transparent;
 }
 
 .nav-item:hover {
-    background: #c5cc8f;
+    border-left: solid 5px #c5cc8f;
 }
 
 .nav-item-active {
-    background: #b6c7b3;
     border-left: solid 5px #7e8073;
 }
 
