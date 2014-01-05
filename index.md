@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: blog
 title: a hacker's blog
 ---
 
-testing
+
+    
