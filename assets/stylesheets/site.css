@@ -1,80 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:400);
+@import 'layout.css';
+@import 'base.css';
+@import 'header.css';
+@import 'nav.css';
+@import 'blog.css';
+@import 'footer.css';
 
-body {
-    width: 65%;
-    padding: 0;
-    margin: 0 auto;
-    background: #eee;
-    font-family: 'Anonymous Pro', sans-serif;
-}
 
-.header {
-    margin-top: 10px;
-    padding: 5px;
-    background: #333;
-    color: green;
-}
-
-.nav {
-
-}
-
-.nav-ul {
-    list-style-type: none;
-}
-
-.nav-ul li {
-    display: inline;
-}
-
-.row {
-    border-top: solid #eaeaea 1px;
-    border-bottom: solid #eaeaea 2px;
-    border-left: solid #eaeaea 2px;
-    border-right: solid #eaeaea 2px;
-    border-radius: 2px;
-    margin-bottom: 20px;
-}
-
-.content p {
-    color: #424242;
-}
-
-.blog-index {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.blog-index-row {
-    border-bottom: #ddd solid 1px;
-}
-
-.blog-index-info {
-    margin: 0;
-    padding: 10px 0px;
-    border-bottom: solid 2px #ddd;
-}
-
-.blog-index-date {
-    color: #DCDEE3;
-    font-size: 10pt;
-}
-
-.blog-index-title {
-    color: #9EA5A8;
-    text-decoration: none;
-}
-
-.blog-index-excerpt {
-    margin: 0;
-    padding: 10px 25px;
-    background: #fff;
-}
-
-.footer {
-}
-
-.footer-text {
-    font-size: 9pt;
-    text-align: center;
-}

@@ -1,0 +1,17 @@
+.row {
+    border-bottom: solid #dadada 2px;
+    border-left: solid #dadada 2px;
+    border-right: solid #dadada 2px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.col-1 {
+    width: 25%;
+    float: left;
+}
+
+.col-2 {
+    width: 75%;
+    float: left;
+}

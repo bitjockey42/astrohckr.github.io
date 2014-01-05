@@ -6,15 +6,19 @@ layout: default
   {% for post in site.posts %}
     <div class="blog-index-row">
 
-      <div class="blog-index-info">
-        <time class="blog-index-date" pubdate="pubdate">{{ post.date }}</time>
-        <a class="blog-index-title" href="{{ post.url }}">{{ post.title }}</a>
+      <div class="col-1">
+        <time class="blog-index-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
       </div>
 
-      <div class="blog-index-excerpt">
-        <p>{{ post.excerpt }}</p>
-      </div>
+      <div class="col-2">
+        <div class="blog-index-info">
+          <a class="blog-index-title" href="{{ post.url }}">{{ post.title }}</a>
+        </div>
 
+        <div class="blog-index-excerpt">
+          <p>{{ post.excerpt }}</p>
+        </div>
+      </div>
     </div>
   {% endfor %}
 </div>
