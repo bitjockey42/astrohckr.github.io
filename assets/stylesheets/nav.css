@@ -1,18 +1,21 @@
 .nav-ul {
     padding-left: 0;
     list-style-type: none;
-    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.nav-ul li {
+    display: inline;
 }
 
 .nav-item {
-    display: block;
+    display: inline-block;
     color: #fdfdfd;
     text-decoration: none;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Anonymous Pro", sans-serif;
     text-transform: lowercase;
-    padding: 5px 5px;
-    margin-bottom: 15px;
     border-left: solid 5px transparent;
+    padding: 5px 15px;
 }
 
 .nav-item:hover {
