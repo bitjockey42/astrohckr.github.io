@@ -1,12 +1,12 @@
 .center {
     margin: 0 auto;
-    width: 775px;
+    width: 700px;
 }
 
 .row {
-    border-bottom: solid #dadada 2px;
+    border-bottom: solid #d0d0d0 2px;
     border-left: solid #dadada 2px;
-    border-right: solid #dadada 2px;
+    border-right: solid #d0d0d0 2px;
     border-radius: 2px;
 }
 

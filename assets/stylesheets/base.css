@@ -1,6 +1,5 @@
 body {
     padding: 0;
     margin: 0 auto;
-    background: #ddd;
+    background: url('/assets/images/subtle_carbon.png');
 }
-

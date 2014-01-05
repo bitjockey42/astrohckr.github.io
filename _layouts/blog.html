@@ -5,15 +5,14 @@ layout: default
 <div class="blog-index">
   {% for post in site.posts %}
     <div class="blog-index-row">
-        <div class="blog-index-info">
-          <time class="blog-index-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
-          <a class="blog-index-title" href="{{ post.url }}">{{ post.title }}</a>
-        </div>
+      <div class="blog-index-info">
+        <time class="blog-index-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
+        <a class="blog-index-title" href="{{ post.url }}">{{ post.title }}</a>
+      </div>
 
-        <div class="blog-index-excerpt">
-          <p>{{ post.excerpt }}</p>
-        </div>
-
+      <div class="blog-index-excerpt">
+        <p>{{ post.excerpt }}</p>
+      </div>
     </div>
   {% endfor %}
 </div>

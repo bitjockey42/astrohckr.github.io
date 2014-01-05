@@ -4,14 +4,16 @@
 }
 
 .blog-index-row {
-    border-bottom: #ddd solid 1px;
+    border-left: solid #dadada 1px;
+    border-bottom: solid #d5d5d5 1px;
+    border-right: solid #d9d9d9 1px;
     margin-bottom: 26px;
 }
 
 .blog-index-info {
     background: #eee;
     margin: 0;
-    padding: 10px 5px;
+    padding: 5px 5px;
     border-bottom: solid 2px #ddd;
 }
 
