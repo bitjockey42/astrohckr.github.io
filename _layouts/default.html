@@ -1,13 +1,19 @@
-{% include header.html %}
+<div class="center">
 
-<div class="col-1">
-{% include nav.html %}
-</div>
+  {% include header.html %}
 
-<div class="col-2">
-  <div class="row content">
-    {{ content }}
+  <div class="col-1">
+    {% include nav.html %}
   </div>
+
+  <div class="col-2">
+    <div class="row">
+      {{ content }}
+    </div>
+  </div>
+
+  {% include footer.html %}
 </div>
 
-{% include footer.html %}
+
+
