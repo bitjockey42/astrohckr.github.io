@@ -4,12 +4,14 @@ slug: logs
 ---
 
 <article>
-  <div class="blog-index-info">
-    <header>
-          <time class="blog-index-date" pubdate="pubdate">{{ page.date|date: "%Y-%m-%d" }}</time>
-          <h2 class="blog-index-title">{{ page.title }}</h2>
-    </header>
-  </div>
+  <header>
+    <div class="blog-info">
+      <time class="blog-date" pubdate="pubdate">{{ page.date|date: "%Y-%m-%d" }}</time>
+      <h2 class="blog-title">{{ page.title }}</h2>
+    </div>
+  </header>
 
-  {{ content }}
+  <div class="blog-content">
+    {{ content }}
+  </div>
 </article>
