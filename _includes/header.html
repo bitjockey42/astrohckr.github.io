@@ -9,7 +9,16 @@
 <header>
   <div class="header">
     <h1 class="header-site-title">
-      {{ site.title }}/{{ page.slug }}/{{ page.date|date: "%Y-%m-%d" }}{{ page.ext_display}}
+
+      {% case page.type %}
+        {% when 'index' %}
+          ls {{ site.title }}/{{ page.slug }}/
+        {% when 'single' %}
+          less {{ page.date|date: "%Y-%m-%d" }}{{ page.ext_display}}
+        {% else %}
+          {{ site.title }}/{{ page.title }}
+      {% endcase %}
+      
     </h1>
     <span class="header-site-tagline">{{ site.tagline }}</span>
   </div>
