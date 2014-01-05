@@ -2,12 +2,19 @@
 layout: default
 ---
 
-<ul class="blog-index">
+<div class="blog-index">
   {% for post in site.posts %}
-    <li class="blog-index-list-item">
-      <time pubdate="pubdate">{{ post.date }}</time>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
-    </li>
+    <div class="blog-index-row">
+
+      <div class="blog-index-info">
+        <time class="blog-index-date" pubdate="pubdate">{{ post.date }}</time>
+        <a class="blog-index-title" href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+
+      <div class="blog-index-excerpt">
+        <p>{{ post.excerpt }}</p>
+      </div>
+
+    </div>
   {% endfor %}
-</ul>
+</div>
