@@ -7,20 +7,19 @@
     border-bottom: #ddd solid 1px;
 }
 
-.blog-index-info {
-    background: #eee;
-    margin: 0;
-    padding: 10px 0px;
-    border-bottom: solid 2px #ddd;
-}
-
 .blog-index-date {
-    color: #333;
+    color: #9EA5A8;
     font-size: 10pt;
 }
 
+.blog-index-info {
+    background: #eee;
+    margin: 0;
+    padding: 10px 5px;
+    border-bottom: solid 2px #ddd;
+}
+
 .blog-index-title {
-    color: #9EA5A8;
     text-decoration: none;
 }
 

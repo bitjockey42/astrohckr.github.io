@@ -1,8 +1,13 @@
 {% include header.html %}
-{% include nav.html %}
 
-<div class="row content">
-  {{ content }}
+<div class="col-1">
+{% include nav.html %}
+</div>
+
+<div class="col-2">
+  <div class="row content">
+    {{ content }}
+  </div>
 </div>
 
 {% include footer.html %}

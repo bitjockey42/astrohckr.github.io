@@ -7,11 +7,21 @@
 }
 
 .col-1 {
-    width: 25%;
+    width: 15%;
+    display: block;
     float: left;
 }
 
 .col-2 {
-    width: 75%;
+    width: 85%;
+    display: block;
     float: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.col-1-padding {
+    padding-top: 10px;
 }
