@@ -1,16 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:400);
+
 body {
     width: 65%;
     padding: 0;
     margin: 0 auto;
-    background: #f9f9f9;
+    background: #eee;
+    font-family: 'Anonymous Pro', sans-serif;
 }
 
 .header {
-    background: #e0e0e0;
+    margin-top: 10px;
+    padding: 5px;
+    background: #333;
+    color: green;
 }
 
 .nav {
-    background: #
+
 }
 
 .nav-ul {
@@ -21,8 +27,28 @@ body {
     display: inline;
 }
 
+.row {
+    border-bottom: solid #eaeaea 2px;
+    border-right: solid #eaeaea 2px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
 .content {
-    background: #ffffff;
+    background: #fff;
+}
+
+.content p {
+    color: #424242;
+}
+
+.blog-index {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.blog-index-list-item {
+    border-bottom: #ddd solid 1px;
 }
 
 .footer {
