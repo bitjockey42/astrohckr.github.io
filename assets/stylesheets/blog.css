@@ -3,27 +3,27 @@
     padding-left: 0;
 }
 
-.blog-index-row {
+.blog-row {
     border-left: solid #dadada 1px;
     border-bottom: solid #d5d5d5 1px;
     border-right: solid #d9d9d9 1px;
     margin-bottom: 26px;
 }
 
-.blog-index-info {
+.blog-info {
     background: #eee;
     margin: 0;
     padding: 5px 5px;
     border-bottom: solid 2px #ddd;
 }
 
-.blog-index-date {
+.blog-date {
     color: #9EA5A8;
     font-size: 10pt;
     font-family: 'Anonymous Pro', sans-serif;
 }
 
-.blog-index-title {
+.blog-title {
     margin-left: 15px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -31,11 +31,11 @@
     color: #bf6060;
 }
 
-.blog-index-title:hover {
+.blog-title:hover {
     color: #cc8f8f;
 }
 
-.blog-index-excerpt {
+.blog-content {
     margin: 0;
     padding: 10px 25px;
     background: #fff;
