@@ -5,11 +5,7 @@
 
 .blog-index-row {
     border-bottom: #ddd solid 1px;
-}
-
-.blog-index-date {
-    color: #9EA5A8;
-    font-size: 10pt;
+    margin-bottom: 26px;
 }
 
 .blog-index-info {
@@ -19,12 +15,23 @@
     border-bottom: solid 2px #ddd;
 }
 
+.blog-index-date {
+    color: #9EA5A8;
+    font-size: 10pt;
+    font-family: 'Anonymous Pro', sans-serif;
+}
+
 .blog-index-title {
+    margin-left: 15px;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #bf6060;
 }
 
 .blog-index-excerpt {
     margin: 0;
     padding: 10px 25px;
     background: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
