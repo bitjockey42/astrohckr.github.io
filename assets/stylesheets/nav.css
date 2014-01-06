@@ -1,5 +1,6 @@
 .nav {
-    background: #333 url('/assets/images/subtle_carbon.png');
+    text-align: right;
+    padding: 5px 10px;
 }
 
 .nav-ul {
@@ -16,18 +17,18 @@
     color: #dfdfdf;
     text-decoration: none;
     font-family: "Anonymous Pro", sans-serif;
-    font-size: 10pt;
+    font-size: 14pt;
     text-transform: lowercase;
-    border-left: solid 5px transparent;
-    padding: 10px 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
 }
 
 .nav-item:hover {
     color: #fdfdfd;
-    border-left: solid 5px #7e8073;
+    background: #7e8073;
 }
 
 .nav-item-active {
     color: #fff;
-    border-left: solid 5px #c5cc8f;
+    background: #f0f0f0;
 }
