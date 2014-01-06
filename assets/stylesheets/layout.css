@@ -5,6 +5,7 @@
 
 .row {
     clear: both;
+    border-bottom: solid #eee 1px;
 }
 
 .col-1 {

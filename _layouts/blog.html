@@ -8,7 +8,6 @@ type: index
   {% for post in site.posts %}
 
   <div class="row">
-
     <div class="col-1">
       <div class="blog-info">
         <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
@@ -22,7 +21,7 @@ type: index
         <p><a href="{{ post.url }}">Read more &rarr;</a></p>
       </div>
     </div>
-
   </div>
+
   {% endfor %}
 </div>
