@@ -1,35 +1,11 @@
-
 <header>
-  <div class="header">
-    <h1 class="header-site-title">
-      $
-      {% case page.type %}
-        {% when 'index' %}
-          ls {{ site.title }}/{{ page.slug }}/
-        {% when 'single' %}
-          less {{ page.date|date: "%Y-%m-%d" }}{{ page.ext_display}}
-        {% when 'about' %}
-          whoami
-        {% else %}
-          {{ site.title }}/{{ page.title }}
-      {% endcase %}
-      
-    </h1>
-    <span class="header-site-tagline">
-      {% case page.type %}
-        {% when 'index' %}
-          List directory contents
-        {% when 'single' %}
-          Read log
-        {% when 'about' %}
-          24601
-        {% else %}
-          {{ site.tagline }}
-      {% endcase %}
-    </span>
+  <div class="row">
+  <div class="col-1">
+    <h3 class="header-site-title">{{ site.title }}.log</h3>
   </div>
+
+  <div class="col-2">
+    {% include nav.html %}
+  </div>
+</div>
 </header>
-
-
-
-

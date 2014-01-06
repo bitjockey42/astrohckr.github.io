@@ -2,13 +2,14 @@
   <div class="nav">
     <ul class="nav-ul">
       {% for site_page in site.pages %}
-        <li>
-          <a href="{{ site_page.url }}"
-             class="nav-item{% if site_page.slug == page.slug %} nav-item-active{% endif %}">
-            {{ site_page.slug }}
-          </a>
-        </li>
+      <li>
+        <a href="{{ site_page.url }}"
+           class="nav-item{% if site_page.slug == page.slug %} nav-item-active{% endif %}">
+          {{ site_page.slug }}
+        </a>
+      </li>
       {% endfor %}
     </ul>
   </div>
 </nav>
+
