@@ -8,6 +8,8 @@
 .header-site-title {
     color: #5cb85c;
     text-shadow: 1px 1px #333;
+    font-family: 'Anonymous Pro', sans-serif;
+    text-decoration: none;
 }
 
 .header-site-tagline {
