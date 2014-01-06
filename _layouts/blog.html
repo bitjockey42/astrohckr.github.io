@@ -5,10 +5,9 @@ type: index
 ---
 
 <div class="blog-index">
-  {% for post in site.posts %}
-
-  <div class="row">
-    <div class="col-1">
+{% for post in site.posts %}
+  <div class="row blog-row">
+    <div class="col-1 align-top">
       <div class="blog-info">
         <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
       </div>
@@ -22,6 +21,5 @@ type: index
       </div>
     </div>
   </div>
-
-  {% endfor %}
+{% endfor %}
 </div>

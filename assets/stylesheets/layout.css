@@ -4,24 +4,26 @@
 }
 
 .row {
+    display: block;
     clear: both;
-    border-bottom: solid #eee 1px;
 }
 
 .col-1 {
     width: 15%;
-    display: block;
-    float: left;
+    display: inline-block;
 }
 
 .col-2 {
     width: 85%;
-    display: block;
-    float: left;
+    display: inline-block;
 }
 
 .align-right {
     text-align: right;
+}
+
+.align-top {
+    vertical-align: top;
 }
 
 .col-1-padding {
