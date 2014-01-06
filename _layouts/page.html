@@ -3,13 +3,15 @@ layout: default
 ---
 
 <article>
-  <header>
-    <div class="blog-info">
-      <h2 class="blog-title">{{ page.title }}</h2>
-    </div>
-  </header>
+  <div class="blog-row">
+    <header>
+      <div class="blog-info">
+        <h2 class="blog-title">{{ page.title }}</h2>
+      </div>
+    </header>
 
-  <div class="blog-content">
-    {{ content }}
+    <div class="blog-content">
+      {{ content }}
+    </div>
   </div>
 </article>

@@ -1,6 +1,5 @@
 .nav {
-    background: #111;
-    padding: 2px 10px;
+    background: #555;
 }
 
 .nav-ul {
@@ -18,17 +17,17 @@
     text-decoration: none;
     font-family: "Anonymous Pro", sans-serif;
     text-transform: lowercase;
-    border-left: solid 5px transparent;
-    padding: 5px 15px;
+    border-bottom: solid 5px transparent;
+    padding: 15px 15px;
 }
 
 .nav-item:hover {
     color: #fdfdfd;
-    border-left: solid 5px #c5cc8f;
+    border-bottom: solid 5px #c5cc8f;
 }
 
 .nav-item-active {
+    background: #777;
     color: #fff;
-    border-left: solid 5px #7e8073;
+    border-bottom: solid 5px #7e8073;
 }
-
