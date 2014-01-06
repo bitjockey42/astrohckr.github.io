@@ -36,6 +36,10 @@
     color: #424242;
 }
 
+.blog-content p:first-child {
+    font-size: 1.2em;
+}
+
 .blog-content p a {
     color: #557aaa;
     text-decoration: none;
