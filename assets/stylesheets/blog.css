@@ -4,16 +4,12 @@
 }
 
 .blog-row {
-    border-left: solid #eee 1px;
     border-bottom: solid #eee 1px;
-    border-right: solid #eee 1px;
 }
 
 .blog-info {
-    background: #eee;
     margin: 0;
     padding: 5px 5px;
-    border-bottom: solid 1px #e0e0e0;
 }
 
 .blog-date {
@@ -37,7 +33,6 @@
 .blog-content {
     margin: 0;
     padding: 10px 25px;
-    background: #fff;
     font-family: 'Open Sans', sans-serif;
     border: solid 1px transparent;
 }
