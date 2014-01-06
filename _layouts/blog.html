@@ -10,13 +10,14 @@ type: index
   <div class="row">
 
     <div class="col-1">
-      <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
+      <div class="blog-info">
+        <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
+      </div>
     </div>
 
     <div class="col-2">
-      <h3><a class="blog-title" href="{{ post.url }}">{{ post.title }}</a></h3>
-
       <div class="blog-content">
+        <h3><a class="blog-title" href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>{{ post.excerpt|markdownify }}</p>
         <p><a href="{{ post.url }}">Read more &rarr;</a></p>
       </div>

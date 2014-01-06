@@ -8,8 +8,7 @@
 }
 
 .blog-info {
-    margin: 0;
-    padding: 5px 5px;
+    padding: 35px 5px;
 }
 
 .blog-date {
@@ -19,7 +18,6 @@
 }
 
 .blog-title {
-    margin-left: 15px;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -38,11 +36,11 @@
     color: #424242;
 }
 
-.blog-content a {
+.blog-content p a {
     color: #557aaa;
     text-decoration: none;
 }
 
-.blog-content a:hover {
+.blog-content p a:hover {
     color: #e6b173;
 }
