@@ -1,6 +1,6 @@
 desc "Given a title as an argument, create a new post file"
 task :write, [:title] do |t, args|
-  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{args.title.gsub(/\s/, '_').downcase}.md"
+  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{args.title.gsub(/\s/, '_').downcase.gsub(/[^0-9a-z]/i, '')}.md"
   path = File.join("_posts", filename)
   if File.exist? path; raise RuntimeError.new("Won't clobber #{path}"); end
   File.open(path, 'w') do |file|
