@@ -17,10 +17,9 @@
     color: #dfdfdf;
     text-decoration: none;
     font-family: "Anonymous Pro", sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
     text-transform: lowercase;
-    padding: 10px 10px;
-    border-radius: 10px;
+    padding: 5px 10px;
 }
 
 .nav-item:hover {
@@ -30,5 +29,6 @@
 
 .nav-item-active {
     color: #fff;
-    background: #f0f0f0;
+    background: #ddd;
+    border: solid 1px #bbb;
 }
