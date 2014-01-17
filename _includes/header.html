@@ -1,7 +1,21 @@
 <header>
   <div class="row">
   <div class="col-1">
-    <h3><a class="header-site-title" href="{{ site.url }}">{{ site.title }}.log</a></h3>
+    <h1 class="header-site-title">
+      &lambda;
+    </h1>
+    <p class="header-site-tagline">
+      {% case page.type %}
+        {% when 'index' %}
+          ls {{ site.title }}/{{ page.slug }}/
+        {% when 'single' %}
+          less {{ page.date|date: "%Y-%m-%d" }}{{ page.ext_display}}
+        {% when 'about' %}
+          whoami
+        {% else %}
+          {{ site.title }}/{{ page.title }}
+      {% endcase %}
+    </p>      
   </div>
 
   <div class="col-2">

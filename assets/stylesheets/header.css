@@ -6,6 +6,7 @@
 }
 
 .header-site-title {
+    display: inline;
     color: #5cb85c;
     text-shadow: 1px 1px #000;
     font-family: 'Anonymous Pro', sans-serif;
@@ -13,6 +14,8 @@
 }
 
 .header-site-tagline {
+    display: inline;
     color: #ddd;
     font-size: 10pt;
+    font-family: 'Anonymous Pro', sans-serif;
 }
