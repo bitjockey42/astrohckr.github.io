@@ -95,9 +95,8 @@ type: index
 title: #{tag}
 exclude_from_nav: true
 ---
-  {% for post in site.tags["#{tag}"] %}
-    <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time> {{ post.title }} <br />
-  {% endfor %}
+{% assign tag_name="#{tag}" %}
+{% include posts_by_tag.html %}
 )
 end
 
