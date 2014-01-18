@@ -6,7 +6,10 @@ title: Logs Folder
 exclude_from_nav: true
 ---
 
-{% for tag in site.tags %}
-  {{ tag[0] }} <br />
+{% for site_tag in site.tags %}
+  {% capture tag %}{{ site_tag | first }}{% endcapture %}
+  {% for post in site.tags[tag] %}
+    {{ post.title }} <br />
+  {% endfor %}
 {% endfor %}
 
