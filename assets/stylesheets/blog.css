@@ -30,14 +30,10 @@
 
 .blog-content {
     margin: 0;
-    padding: 10px 25px;
+    padding: 10px 0px;
     font-family: 'Open Sans', sans-serif;
     border: solid 1px transparent;
     color: #424242;
-}
-
-.blog-content p:first-child {
-    font-size: 1.2em;
 }
 
 .blog-content p a {

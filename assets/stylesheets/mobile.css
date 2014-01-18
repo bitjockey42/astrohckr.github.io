@@ -13,6 +13,11 @@
         width: 100%;
     }
 
+/* Blog */
+.blog-content {
+    padding: 25px;
+}
+
 /* Navigation */
     .nav {
         text-align: left;
