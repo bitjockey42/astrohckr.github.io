@@ -6,11 +6,14 @@ title: Logs Folder
 exclude_from_nav: true
 ---
 
-{% for site_tag in site.tags %}
-  {% capture tag %}{{ site_tag | first }}{% endcapture %}
-  <h2>{{ tag }}</h2>
-  {% for post in site.tags[tag] %}
-    {{ post.title }} <br />
+{% for tag in site.tags %}
+  {% capture tag_name %}{{ tag | first }}{% endcapture %}
+
+  <h2>{{ tag_name }}</h2>
+
+  {% for post in site.tags[tag_name] %}
+    <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time> {{ post.title }} <br />
   {% endfor %}
+
 {% endfor %}
 
