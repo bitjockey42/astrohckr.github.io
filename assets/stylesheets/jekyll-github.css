@@ -69,5 +69,5 @@
 
 /* Line numbers */
 .linenodiv { margin-right: -5px; }
-.linenodiv pre { color: #aaa; background-color: #eee; font-weight: bold; border: none;}
+.linenodiv pre { color: #aaa; background-color: #eee; border: none; border-radius: 0; }
 .code pre { border: none; }
