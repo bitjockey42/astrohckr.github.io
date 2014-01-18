@@ -67,6 +67,11 @@
     text-decoration: none;
 }
 
+.blog-tag-list-item-link:hover {
+    background: #ccc;
+    color: #efefef;
+}
+
 .blog-post-metadata {
     margin: 0;
 }
