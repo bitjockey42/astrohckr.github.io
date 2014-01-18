@@ -10,7 +10,7 @@ end
 desc 'Preview on local machine (server with --auto)'
 task :preview => :clean do
   Rake::Task[:tags].invoke
-  jekyll('serve --watch')
+  jekyll('build --watch --destination ~/Sites/hckr/')
 end
 
 desc "Generate tags"
