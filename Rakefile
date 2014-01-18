@@ -7,10 +7,16 @@ task :clean do
   cleanup
 end
 
-desc 'Preview on local machine (server with --auto)'
+desc 'Preview on local machine (build with --auto)'
 task :preview => :clean do
   Rake::Task[:tags].invoke
   jekyll('build --watch --destination ~/Sites/hckr/')
+end
+
+desc 'Build on local machine (build without --auto)'
+task :build => :clean do
+  Rake::Task[:tags].invoke
+  jekyll('build --destination ~/Sites/hckr')
 end
 
 desc "Generate tags"
@@ -92,7 +98,7 @@ def tag_page(tag)
 layout: page
 slug: logs
 type: index
-title: #{tag}
+title: Posts tagged #{tag}
 exclude_from_nav: true
 ---
 {% assign tag_name="#{tag}" %}
