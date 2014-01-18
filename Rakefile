@@ -1,8 +1,23 @@
+desc "Generate tags"
+task :tags do
+  require 'rubygems'
+  require 'jekyll'
+  include Jekyll::Filters
+
+  options = Jekyll.configuration({})
+  site = Jekyll::Site.new(options)
+  site.read_posts('')
+
+  site.tags.each do |tag, posts|
+    create_file_with_content tag_page(tag), File.join("logs", "#{sanitize(tag)}.html")
+  end
+end
+
 desc "Given a title as an argument, create a new post file"
 task :write, [:title] do |t, args|
   post_title = post_title(args)
   unless file_exists_at_path? file_path(post_title)
-    create_post_with_content post_front_matter(post_title), file_path(post_title)
+    create_file_with_content post_front_matter(post_title), file_path(post_title)
     open_file_in_editor file_path(post_title)
   end
 end
@@ -27,7 +42,7 @@ def file_exists_at_path?(file_path)
   end
 end
 
-def create_post_with_content(content, file_path)
+def create_file_with_content(content, file_path)
   File.open(file_path, 'w') do |file|
     file.write content
   end
@@ -54,6 +69,20 @@ layout: post
 title: #{post_title}
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}  
 ---)
+end
+
+def tag_page(tag)
+%Q(---
+layout: page
+slug: logs
+type: index
+title: Logs Folder
+exclude_from_nav: true
+---
+  {% for post in site.tags["#{tag}"] %}
+    <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time> {{ post.title }} <br />
+  {% endfor %}
+)
 end
 
 def open_file_in_editor(file_path)
