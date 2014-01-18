@@ -92,7 +92,7 @@ def tag_page(tag)
 layout: page
 slug: logs
 type: index
-title: Logs Folder
+title: #{tag}
 exclude_from_nav: true
 ---
   {% for post in site.tags["#{tag}"] %}

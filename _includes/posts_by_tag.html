@@ -1,0 +1,15 @@
+{% for post in site.tags[tag_name] %}
+  <div class="row">
+    <div class="col-1">
+      <div class="blog-info">
+        <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
+      </div>
+    </div>
+
+    <div class="col-2">
+      <div class="blog-content">
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
