@@ -12,6 +12,7 @@
     display: inline;
 }
 
+
 .nav-item {
     display: inline-block;
     color: #dfdfdf;
@@ -22,9 +23,18 @@
     padding: 5px 10px;
 }
 
+.nav-item-social {
+    padding: 0;
+}
+
 .nav-item:hover {
     color: #fdfdfd;
     background: #7e8073;
+}
+
+.nav-item-social:hover {
+    color: #7e8073;
+    background: none;
 }
 
 .nav-item-active {
