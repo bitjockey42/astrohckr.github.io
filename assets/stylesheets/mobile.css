@@ -1,0 +1,24 @@
+/* Mobile */
+
+@media only screen and (max-device-width: 480px) {
+/* Layout */
+    .center {
+        width: 100%;
+    }
+ 
+    .col-lg-1,
+    .col-lg-2,
+    .col-1,
+    .col-2 {
+        display: block;
+        width: 100%;
+    }
+
+/* Navigation */
+    .nav {
+        text-align: left;
+    }
+    .nav-ul li {
+        display: list-item;
+    }
+}
