@@ -1,7 +1,20 @@
+require 'rake'
+require 'rubygems'
+require 'jekyll'
+
+desc 'Clean up generated site'
+task :clean do
+  cleanup
+end
+
+desc 'Preview on local machine (server with --auto)'
+task :preview => :clean do
+  Rake::Task[:tags]
+  jekyll('serve --watch')
+end
+
 desc "Generate tags"
 task :tags do
-  require 'rubygems'
-  require 'jekyll'
   include Jekyll::Filters
 
   options = Jekyll.configuration({})
@@ -97,3 +110,10 @@ def text_editor
   'iA Writer'
 end
 
+def cleanup
+  sh 'rm -rf _site'
+end
+
+def jekyll(directives = '')
+  sh 'jekyll ' + directives
+end
