@@ -89,7 +89,10 @@ def post_front_matter(post_title)
 %Q(---
 layout: post
 title: #{post_title}
-date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}  
+date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
+tags:
+ - like
+ - this
 ---)
 end
 
