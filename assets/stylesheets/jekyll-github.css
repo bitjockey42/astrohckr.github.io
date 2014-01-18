@@ -66,3 +66,8 @@
 .highlight .vi { color: teal; }
 .highlight .il { color: #009999; }
 .highlight .gc { color: #999; background-color: #EAF2F5; }
+
+/* Line numbers */
+.linenodiv { margin-right: -5px; }
+.linenodiv pre { color: #aaa; background-color: #eee; font-weight: bold; border: none;}
+.code pre { border: none; }
