@@ -1,8 +1,6 @@
 desc "Given a title as an argument, create a new post file"
 task :write, [:title] do |t, args|
   post_title = post_title(args)
-  p post_title
-  p post_front_matter(post_title)
   unless file_exists_at_path? file_path(post_title)
     create_post_with_content post_front_matter(post_title), file_path(post_title)
     open_file_in_editor file_path(post_title)
@@ -10,6 +8,11 @@ task :write, [:title] do |t, args|
 end
 
 def post_title(args)
+  # This is necessary because Rake interprets arguments with commas in them,
+  # even if they are in a string, as separate arguments.
+  # So if you pass in "Testing's easy, but, really?" as the title, 
+  # args.title will be "Testing's easy"
+  # args.extras will be ["but", "really"]
   if !args.extras.empty?
     string = ", #{args.extras.join(", ")}"
   else
