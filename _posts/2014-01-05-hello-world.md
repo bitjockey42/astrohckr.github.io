@@ -2,6 +2,10 @@
 layout: post
 title: Hello world
 date: 2014-01-05  1:40:31
+tags:
+ - hello
+ - meta
+ - site
 ---
 
 As a software engineer, I tend to relinquish writing prose in favor of code. Coding, after all, is itself a form of expression. You turn ideas into a language the computer can understand (through a series of translators, of course), and create virtual utilities seemingly out of thin air.
