@@ -8,6 +8,7 @@
 }
 
 .blog-info {
+    font-family: 'Anonymous Pro', sans-serif;
     padding: 37px 5px 0px;
 }
 
@@ -64,4 +65,8 @@
     margin-bottom: 5px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.blog-post-metadata {
+    margin: 0;
 }
