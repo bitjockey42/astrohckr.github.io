@@ -22,10 +22,10 @@ task :tags do
   site.read_posts('')
 
   # To clear the existing tag pages.
-  FileUtils.rm Dir.glob('logs/*.html')
+  FileUtils.rm Dir.glob('tags/*.html')
 
-  site.tags.each do |tag, postsrm|
-    create_file_with_content tag_page(tag), File.join("logs", "#{sanitize(tag)}.html")
+  site.tags.each do |tag, posts|
+    create_file_with_content tag_page(tag), File.join("tags", "#{sanitize(tag)}.html")
   end
 end
 
