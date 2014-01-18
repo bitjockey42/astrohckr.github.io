@@ -2,7 +2,7 @@
 layout: tag_index
 slug: logs
 type: index
-title: Logs Folder
+title: Site Tags
 exclude_from_nav: true
 ---
 
