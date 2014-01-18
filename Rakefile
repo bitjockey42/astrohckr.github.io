@@ -9,7 +9,7 @@ end
 
 desc 'Preview on local machine (server with --auto)'
 task :preview => :clean do
-  Rake::Task[:tags]
+  Rake::Task[:tags].invoke
   jekyll('serve --watch')
 end
 
