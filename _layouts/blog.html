@@ -11,9 +11,9 @@ type: index
       <div class="blog-info">
         <time class="blog-date" pubdate="pubdate">{{ post.date|date: "%Y-%m-%d" }}</time>
 
-        <ul>
+        <ul class="blog-tag-list">
           {% for tag in post.tags %}
-          <li><a href="#" class="blog-tag">{{ tag }}</a></li>
+          <li class="blog-tag-list-item"><a href="#" class="blog-tag-list-item-link">{{ tag }}</a></li>
           {% endfor %}
         </ul>
       </div>

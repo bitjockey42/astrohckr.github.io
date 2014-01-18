@@ -11,15 +11,6 @@
     padding: 37px 5px 0px;
 }
 
-.blog-info ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.blog-info li {
-    display: inline-block;
-}
-
 .blog-date {
     color: #9EA5A8;
     font-size: 10pt;
@@ -54,7 +45,16 @@
     color: #e6b173;
 }
 
-.blog-tag {
+.blog-tag-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.blog-tag-list-item {
+    display: inline-block;
+}
+
+.blog-tag-list-item-link {
     display: block;
     font-family: 'Helvetica', Arial, sans-serif;
     font-size: 8pt;
