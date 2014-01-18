@@ -8,6 +8,7 @@ exclude_from_nav: true
 
 {% for site_tag in site.tags %}
   {% capture tag %}{{ site_tag | first }}{% endcapture %}
+  <h2>{{ tag }}</h2>
   {% for post in site.tags[tag] %}
     {{ post.title }} <br />
   {% endfor %}
