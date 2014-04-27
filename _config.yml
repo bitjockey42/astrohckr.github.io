@@ -1,6 +1,6 @@
 title: hckr
 tagline: The personal blog of a hacker
 permalink: pretty
-exclude: [Gemfile, Gemfile.lock, README.md]
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]
 markdown: rdiscount
 baseurl: /

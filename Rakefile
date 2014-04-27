@@ -10,20 +10,19 @@ end
 desc 'Preview on local machine (build with --auto)'
 task :preview => :clean do
   Rake::Task[:tags].invoke
-  jekyll('build --watch --destination ~/Sites/hckr/')
+  jekyll("build --watch --destination #{options['destination']}")
 end
 
 desc 'Build on local machine (build without --auto)'
 task :build => :clean do
   Rake::Task[:tags].invoke
-  jekyll('build --destination ~/Sites/hckr')
+  jekyll("build --destination #{options['destination']}")
 end
 
 desc "Generate tags"
 task :tags do
   include Jekyll::Filters
 
-  options = Jekyll.configuration({})
   site = Jekyll::Site.new(options)
   site.read_posts('')
 
@@ -110,4 +109,8 @@ end
 
 def jekyll(directives = '')
   sh 'jekyll ' + directives
+end
+
+def options
+  Jekyll.configuration({})
 end
