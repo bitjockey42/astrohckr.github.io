@@ -95,12 +95,8 @@ exclude_from_nav: true
 end
 
 def open_file_in_editor(file_path)
-  `open -a '#{text_editor}' #{file_path}`
-  puts "Opening #{file_path} in #{text_editor}."
-end
-
-def text_editor
-  'iA Writer'
+  `#{options['editor']} #{file_path}`
+  puts "Opening #{file_path} in #{options['editor']}."
 end
 
 def cleanup
