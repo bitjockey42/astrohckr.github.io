@@ -5,12 +5,8 @@ slug: about
 title: About
 ---
 
-I'm a full-time software developer working in the colder, more mercurial version of Silicon Valley. 
+## The Author
 
-When I'm not writing code at work, I'm usually writing it at home.
-
-When I'm not writing code at home, I'm probably either reading, writing (non-code), or biking.
-
-I'm very boring.
+I was previously a full-time software engineer at [eSpark Learning](https://esparklearning.com), but have recently returned to the [University of Illinois at Urbana-Champaign](http://illinois.edu) to finish up where I left off when I took an extended leave of absence in 2011.
 
 
