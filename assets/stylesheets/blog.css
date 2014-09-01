@@ -22,11 +22,8 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    color: #bf6060;
-}
-
-.blog-title:hover {
-    color: #cc8f8f;
+    color: #03C03C;
+    text-transform: uppercase;
 }
 
 .blog-content {
@@ -40,6 +37,7 @@
 .blog-content p a {
     color: #557aaa;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .blog-content p a:hover {
