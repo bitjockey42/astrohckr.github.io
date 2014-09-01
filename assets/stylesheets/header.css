@@ -1,13 +1,17 @@
 .header {
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 30px;
     padding: 0px 30px;
     font-family: 'Anonymous Pro', sans-serif;
-    background: #0d0d0d;
-    border-top: solid 20px #ddd;
+    border-bottom: solid 20px #ddd;
 }
 
 .header-site-title {
+    display: inline;
+    font-size: 24pt;
+}
+
+.header-site-logo {
     display: inline;
     color: #5cb85c;
     text-shadow: 1px 1px #000;
@@ -19,6 +23,6 @@
 .header-site-tagline {
     display: inline;
     color: #ccc;
-    font-size: 10pt;
+    font-size: 14pt;
     font-family: 'Anonymous Pro', sans-serif;
 }

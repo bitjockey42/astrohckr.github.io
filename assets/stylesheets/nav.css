@@ -42,6 +42,11 @@
 }
 
 .nav-item-active {
-    color: #fff;
+    color: #555;
     border-right: solid 3px #ddd;
+    background: #E0FFFF;
+}
+
+.nav-item-active:hover {
+    color: #000;
 }
