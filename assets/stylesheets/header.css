@@ -3,12 +3,13 @@
     margin-bottom: 30px;
     padding: 0px 30px;
     font-family: 'Anonymous Pro', sans-serif;
-    border-bottom: solid 20px #ddd;
+    border-bottom: solid 5px #eee;
+    background: #fff;
 }
 
 .header-site-title {
     display: inline;
-    font-size: 24pt;
+    font-size: 18pt;
 }
 
 .header-site-logo {
