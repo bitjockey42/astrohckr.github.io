@@ -3,6 +3,8 @@
     margin-bottom: 30px;
     padding: 5px;
     font-family: 'Anonymous Pro', sans-serif;
+    background: #0d0d0d;
+    border-top: solid 20px #ddd;
 }
 
 .header-site-title {
