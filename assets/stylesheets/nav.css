@@ -20,8 +20,8 @@
     font-family: "Anonymous Pro", sans-serif;
     font-size: 12pt;
     text-transform: lowercase;
-    padding: 10px 20px;
-    border-left: solid 3px transparent;
+    padding: 5px 15px;
+    border-right: solid 3px transparent;
 }
 
 .nav-item-social {
@@ -33,7 +33,7 @@
 
 .nav-item:hover {
     color: #fdfdfd;
-    border-left: solid 3px #7e8073;
+    border-right: solid 3px #7e8073;
 }
 
 .nav-item-social:hover {
@@ -43,5 +43,5 @@
 
 .nav-item-active {
     color: #fff;
-    border-left: solid 3px #ddd;
+    border-right: solid 3px #ddd;
 }
