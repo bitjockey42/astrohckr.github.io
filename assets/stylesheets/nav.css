@@ -25,6 +25,9 @@
 }
 
 .nav-item-social {
+    display: inline-block;
+    color: #dfdfdf;
+    text-decoration: none;
     padding: 0;
 }
 
