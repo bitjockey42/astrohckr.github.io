@@ -12,16 +12,14 @@
     display: inline;
 }
 
-
 .nav-item {
     display: inline-block;
-    color: #dfdfdf;
+    color: #999;
     text-decoration: none;
     font-family: "Anonymous Pro", sans-serif;
     font-size: 12pt;
     text-transform: lowercase;
-    padding: 5px 15px;
-    border-right: solid 3px transparent;
+    padding: 10px 15px;
 }
 
 .nav-item-social {
@@ -33,20 +31,14 @@
 
 .nav-item:hover {
     color: #ddd;
-    border-right: solid 3px #7e8073;
 }
 
 .nav-item-social:hover {
-    color: #7e8073;
+    color: #555;
     background: none;
 }
 
 .nav-item-active {
-    color: #555;
-    border-right: solid 3px #ddd;
-    background: #E0FFFF;
+	color: #fff;
 }
 
-.nav-item-active:hover {
-    color: #000;
-}
