@@ -17,3 +17,8 @@ To preview the site on the local server:
 To build the site (and generate tags):
 
     rake build
+
+To write a new post and edit it with your editor of choice:
+
+	rake write TITLE='Some clever title here'
+

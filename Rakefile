@@ -37,9 +37,12 @@ end
 desc "Given a title as an argument, create a new post file"
 task :write do
   post_title = ENV['TITLE']
+  skip_open = ENV['SKIP_OPEN'] # if specified, don't open in editor
   unless file_exists_at_path? file_path(post_title)
     create_file_with_content post_front_matter(post_title), file_path(post_title)
-    open_file_in_editor file_path(post_title)
+    if !skip_open
+      open_file_in_editor file_path(post_title)
+    end
   end
 end
 
