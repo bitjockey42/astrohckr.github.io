@@ -70,3 +70,6 @@ DEPENDENCIES
   jekyll (~> 2.3)
   rake (~> 10.1.0)
   rdiscount
+
+BUNDLED WITH
+   1.10.3
