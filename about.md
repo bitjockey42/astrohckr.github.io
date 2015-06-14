@@ -9,7 +9,7 @@ title: About
 
 I'm AJ, a software hacker currently trying to figure out where my Life is going, exactly. Day by day, I'm also learning to [let it go](https://www.youtube.com/watch?v=L0MK7qz13bU).
 
-Secretly, I still want to be [Ellie Arroway](http://en.wikipedia.org/wiki/Contact_(novel) when I grow up. (Which is a way of saying I'm *still* hoping to become an astronaut even though I lack both the athletic and intellectual aptitude for such pursuits).
+Secretly, I still want to be [Ellie Arroway](http://en.wikipedia.org/wiki/Contact_(novel)) when I grow up. (Which is a way of saying I'm *still* hoping to become an astronaut even though I lack both the athletic and intellectual aptitude for such pursuits).
 
 The programming languages I work with include Python, C/C++, Haskell, Clojure, and Ruby. I have the most professional (i.e. paid) experience with Python and Ruby. 
 
