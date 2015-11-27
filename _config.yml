@@ -1,7 +1,7 @@
-title: hckr
+title: aj
 tagline: The personal blog of a hacker
 permalink: pretty
 exclude: [Gemfile, Gemfile.lock, README.md, vendor]
-markdown: rdiscount
+markdown: redcarpet
 baseurl: /
 editor: emacs .

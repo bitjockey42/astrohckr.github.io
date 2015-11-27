@@ -2,11 +2,7 @@
 layout: post
 title: Chromebook as Linux Ultrabook
 date: 2014-09-26 22:38:47
-tags:
- - linux
- - hack
- - acer
- - chromebook
+tags: linux, chromebook
 ---
 
 I recently got an [Acer C720](http://us.acer.com/ac/en/US/content/series/c720) Chromebook with the intention of using it as a sort of poor person's Macbook Air since I'm back to a college-student budget. And who can ever forget how obsessed I am with Linux?

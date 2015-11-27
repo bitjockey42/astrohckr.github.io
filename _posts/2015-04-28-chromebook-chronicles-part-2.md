@@ -2,11 +2,7 @@
 layout: post
 title: Chromebook Chronicles Part 2
 date: 2015-04-28  3:30:24
-tags:
- - linux
- - chromebook
- - acer
-
+tags: linux, chromebook
 ---
 
 I have been using the Acer C720 Chromebook as a linux laptop for a couple months now.
@@ -23,11 +19,11 @@ Note: If considering the above, make sure to disable ALPM to resolve SATA power 
 
 While I've taken no less than 3 distributions for a spin (Ubuntu, eOS - aka elementary, Arch Linux), I always go back to [Arch](http://archlinux.org).
 
-This is mostly due to my being somewhat of a control freak when it comes to my computing choices. 
+This is mostly due to my being somewhat of a control freak when it comes to my computing choices.
 
-[eOS Freya](http://elementary.io) is a polished, refined distribution, with [Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) as its core underpinnings. I like, one can even say, love, that the eOS apps are visually consistent and lightweight. 
+[eOS Freya](http://elementary.io) is a polished, refined distribution, with [Ubuntu 14.04 LTS](http://releases.ubuntu.com/14.04/) as its core underpinnings. I like, one can even say, love, that the eOS apps are visually consistent and lightweight.
 
-With Arch, however, I can set up a fairly lightweight system even when using [Cinnamon](https://wiki.archlinux.org/index.php/Cinnamon). 
+With Arch, however, I can set up a fairly lightweight system even when using [Cinnamon](https://wiki.archlinux.org/index.php/Cinnamon).
 
 ## Installation
 
@@ -37,7 +33,7 @@ NOTE: Install `netctl` on the `arch-chroot` step. `wpa_supplicant` version `2.4.
 
 You can simply download it to the chroot-ed system with `wget http://seblu.net/a/arm/packages/w/wpa_supplicant/wpa_supplicant-2.3-1-x86_64.pkg.tar.xz`.
 
-And then install: `pacman -U wpa_supplicant-2.3-1-x86_64.pkg.tar.xz`. 
+And then install: `pacman -U wpa_supplicant-2.3-1-x86_64.pkg.tar.xz`.
 
 ## Tweaks
 
@@ -55,7 +51,7 @@ My `/etc/fstab` looks more or less like this:
 
 `/dev/mapper/home` maps to the encrypted `/home` partition that I set up on installation.
 
-`discard` and `data` in the options is to enable `TRIM` on the SSD. 
+`discard` and `data` in the options is to enable `TRIM` on the SSD.
 
 ### Fixing suspend/resume
 
@@ -110,13 +106,13 @@ options ath9k btcoex_enable=1 bt_ant_diversity=1 ps_enable=0
 
 This is to enable bluetooth and wifi coexistence.
 
-Power saving can also be enabled by setting the `ps_enable=1` flag, but according to the Arch wiki there are system freezes associated with that. 
+Power saving can also be enabled by setting the `ps_enable=1` flag, but according to the Arch wiki there are system freezes associated with that.
 
 ### zram
 
 [Zram or zswap setup](https://wiki.archlinux.org/index.php/Maximizing_performance#Zram_or_zswap)
 
-[zram](https://www.kernel.org/doc/Documentation/blockdev/zram.txt) is a kernel module with which you can replace swap partitions for faster performance. 
+[zram](https://www.kernel.org/doc/Documentation/blockdev/zram.txt) is a kernel module with which you can replace swap partitions for faster performance.
 
 ### Preload
 
@@ -128,4 +124,3 @@ This was mostly to speed up performance for Firefox and Chrome, though lately I'
 ## That's it for now.
 
 Time will tell how well this setup will go. My next project is to do this on my rMBP, which currently is running Mavericks (due to Yosemite issues).
-
