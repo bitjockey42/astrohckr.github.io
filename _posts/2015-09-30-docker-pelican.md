@@ -2,7 +2,10 @@
 layout: post
 title: Docker Pelican
 date: 2015-09-30 16:55
-tags: pelican, docker, site
+tags:
+  - pelican
+  - docker
+  - site
 ---
 
 I've been doing a lot of work lately to move my development workflow to a Docker-based one, and it's paid off quite a bit. I use the [Docker toolbox](https://www.docker.com/toolbox) for development, which includes with it an installation of Virtualbox, `docker-machine`, and `docker-compose`.

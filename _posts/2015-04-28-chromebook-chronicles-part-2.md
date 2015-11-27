@@ -2,7 +2,9 @@
 layout: post
 title: Chromebook Chronicles Part 2
 date: 2015-04-28  3:30:24
-tags: linux, chromebook
+tags:
+  - linux
+  - chromebook
 ---
 
 I have been using the Acer C720 Chromebook as a linux laptop for a couple months now.

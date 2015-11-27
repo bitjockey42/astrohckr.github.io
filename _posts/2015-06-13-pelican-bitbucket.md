@@ -2,7 +2,11 @@
 layout: post
 title: Pelican-generated, Github-hosted
 date: Sat Jun 13 18:50:31 CDT 2015
-tags: site meta, pelican, python, github
+tags:
+  - site meta
+  - pelican
+  - python
+  - github
 ---
 
 Since I primarily work in Python and mercurial-land now, I decided I might as well take this stuff out for a spin.
