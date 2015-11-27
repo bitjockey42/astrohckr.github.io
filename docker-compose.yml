@@ -1,0 +1,7 @@
+jekyll:
+  build: .
+  command: jekyll serve
+  ports:
+    - "4000:4000"
+  volumes:
+    - .:/jekyll_src
