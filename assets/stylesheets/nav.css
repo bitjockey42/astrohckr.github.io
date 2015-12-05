@@ -40,5 +40,5 @@
 
 .nav-item-active {
 	color: #fff;
+  border-bottom: solid #fff 2px;
 }
-
