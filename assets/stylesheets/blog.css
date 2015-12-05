@@ -12,6 +12,11 @@
     padding: 37px 5px 0px;
 }
 
+.blog-header {
+  border-bottom: solid 3px #ddd;
+  clear: both;
+}
+
 .blog-date {
     color: #9EA5A8;
     font-size: 10pt;
@@ -22,15 +27,16 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    color: #03C03C;
+    color: #1e2032;
     text-transform: uppercase;
+    font-size: 20pt;
 }
 
 .blog-content {
     margin: 0;
     padding: 10px 0px;
     font-family: 'Open Sans', sans-serif;
-    border: solid 1px transparent;
+    border-bottom: solid 1px transparent;
     color: #424242;
 }
 
@@ -72,4 +78,9 @@
 
 .blog-post-metadata {
     margin: 0;
+}
+
+.blog-meta {
+  clear: both;
+  border-bottom: solid 1px #eee;
 }

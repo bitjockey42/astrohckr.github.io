@@ -1,26 +1,26 @@
 <header class="header">
   <div class="row center">
-  <div class="col-lg-1">
-    <a class="header-site-link" href="{{ site.baseurl }}">
-      <h1 class="header-site-title">~{{ site.title }}</h1>
-      <span class="header-site-logo">&lambda;</span>
-    </a>
-    <p class="header-site-tagline">
-      {% case page.type %}
-        {% when 'index' %}
-          ls {{ site.title }}/{{ page.slug }}/
-        {% when 'single' %}
-          less {{ page.date|date: "%Y-%m-%d" }}{{ page.ext_display}}
-        {% when 'about' %}
-          whoami
-        {% else %}
-          {{ site.title }}/{{ page.title }}
-      {% endcase %}
-    </p>
-  </div>
+    <div class="col-lg-1">
+      <a class="header-site-link" href="{{ site.baseurl }}">
+        <h1 class="header-site-title">~{{ site.title }}</h1>
+        <span class="header-site-logo">&lambda;</span>
+      </a>
+      <p class="header-site-tagline">
+        {% case page.type %}
+          {% when 'index' %}
+            ls {{ site.title }}/{{ page.slug }}/
+          {% when 'single' %}
+            less {{ page.date|date: "%Y-%m-%d" }}{{ page.ext_display}}
+          {% when 'about' %}
+            whoami
+          {% else %}
+            {{ site.title }}/{{ page.title }}
+        {% endcase %}
+      </p>
+    </div>
 
-  <div class="col-lg-2">
-    {% include nav.html %}
+    <div class="col-lg-2">
+      {% include nav.html %}
+    </div>
   </div>
-</div>
 </header>

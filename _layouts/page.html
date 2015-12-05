@@ -7,15 +7,21 @@ layout: default
     <div class="row">
 
       <div class="blog-content">
-        <header>
+        <header class="blog-header">
           <h1 class="blog-title">{{ page.title }}</h1>
-          {% if page.type == 'single' %}
-            {% assign tags = page.tags %}
-            {% include tag_list.html %}
-          {% endif %}
         </header>
 
-        <p><time class="blog-date" pubdate="pubdate">{{ page.date|date: "%A, %d %B in %Y" }}</time></p>
+        {% if page.type == 'single' %}
+          <div class="blog-meta">
+            <div class="col-lg-1">
+              <time class="blog-date" pubdate="pubdate">{{ page.date|date: "%A, %d %B in %Y" }}</time></p>
+            </div>
+            <div class="col-lg-2 align-right">
+              {% assign tags = page.tags %}
+              {% include tag_list.html %}
+            </div>
+          </div>
+        {% endif %}
 
         {{ content }}
 
