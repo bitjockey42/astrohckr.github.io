@@ -17,6 +17,11 @@
   clear: both;
 }
 
+.blog-meta {
+  clear: both;
+  border-bottom: solid 1px #eee;
+}
+
 .blog-date {
     color: #9EA5A8;
     font-size: 10pt;
@@ -78,9 +83,4 @@
 
 .blog-post-metadata {
     margin: 0;
-}
-
-.blog-meta {
-  clear: both;
-  border-bottom: solid 1px #eee;
 }
