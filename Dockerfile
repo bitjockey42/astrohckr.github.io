@@ -1,4 +1,7 @@
-FROM jekyll/jekyll:pages
+FROM ruby:2.2.3
+
+RUN apt-get update -qq
+RUN apt-get install -y nodejs
 
 ENV JEKYLL_DIR /jekyll_src
 RUN mkdir $JEKYLL_DIR
