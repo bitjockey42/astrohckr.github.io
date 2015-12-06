@@ -63,6 +63,8 @@
     border-radius: 4px;
 }
 
+
+
 .blog-tag-list {
     list-style: none;
     padding-left: 0;
@@ -91,4 +93,14 @@
 
 .blog-post-metadata {
     margin: 0;
+}
+
+ul#markdown-toc {
+  background: #e3e5ff;
+  padding: 20px 40px;
+  border: solid 1px #eee;
+}
+
+ul#markdown-toc a {
+  text-decoration: none;
 }
