@@ -299,7 +299,7 @@ Then, create `/boot/loader/entries/arch.conf`.
 
 If you did a DM-Crypt/LVM setup, it should look like this:
 
-{% highlight text %}
+{% highlight text lineos=table %}
 title	Arch Linux
 linux	/vmlinuz-linux
 initrd	/initramfs-linux.img
@@ -308,7 +308,7 @@ options cryptdevice=/dev/sda5:vgcrypt:allow-discards root=/dev/mapper/vgcrypt-ro
 
 If you did a regular ole setup:
 
-{% highlight text %}
+{% highlight text lineos=table %}
 title	Arch Linux
 linux	/vmlinuz-linux
 initrd	/initramfs-linux.img
