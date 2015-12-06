@@ -2,9 +2,10 @@ title: aj
 tagline: The personal blog of a hacker
 permalink: pretty
 exclude: [Gemfile, Gemfile.lock, README.md, vendor]
-markdown:
-  kramdown:
-    input: GFM
+markdown: kramdown
+kramdown:
+  input: GFM
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 baseurl: /
 editor: emacs .
 disqus_sitename: ajwrites

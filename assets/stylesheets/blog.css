@@ -55,6 +55,14 @@
     color: #e6b173;
 }
 
+.blog-content code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
 .blog-tag-list {
     list-style: none;
     padding-left: 0;
