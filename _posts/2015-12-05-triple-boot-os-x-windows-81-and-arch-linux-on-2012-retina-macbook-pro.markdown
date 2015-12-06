@@ -288,7 +288,7 @@ mkdir -p /boot/loader/entries
 
 Create a file, `/boot/loader/loader.conf` and put this in it:
 
-{% highlight text %}
+{% highlight text lineos=table %}
 default arch
 timeout 4
 {% endhighlight %}
