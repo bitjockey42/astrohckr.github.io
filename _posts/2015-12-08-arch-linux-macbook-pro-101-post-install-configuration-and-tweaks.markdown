@@ -79,13 +79,13 @@ To poweroff the discrete GPU after you've switched to the integrated card:
 
 {% highlight sh %}
 $ sudo su
-# echo OFF > /sys/kernel/debug/vgaswitcheroo/switch
+$ echo OFF > /sys/kernel/debug/vgaswitcheroo/switch
 {% endhighlight %}
 
 Then check if it's off:
 
 {% highlight sh %}
-# cat /sys/kernel/debug/vgaswitcheroo/switch
+$ cat /sys/kernel/debug/vgaswitcheroo/switch
 {% endhighlight %}
 
 Output should be something like this:
@@ -136,8 +136,8 @@ EndSection
 Install [mbpfan-git](https://aur.archlinux.org/packages/mbpfan-git/) for enabling fan control.
 
 {% highlight sh %}
-# mbpfan -t
-# systemctl enable mbpfan
+$ mbpfan -t
+$ systemctl enable mbpfan
 {% endhighlight %}
 
 ## Power Management
@@ -149,8 +149,8 @@ Install [mbpfan-git](https://aur.archlinux.org/packages/mbpfan-git/) for enablin
 Install `tlp` from the official repos, then enable the `tlp` and `tlp-service`.
 
 {% highlight sh %}
-# systemctl enable tlp
-# systemctl enable tlp-sleep
+$ systemctl enable tlp
+$ systemctl enable tlp-sleep
 {% endhighlight %}
 
 ### powertop
