@@ -1,4 +1,7 @@
-body {
-    padding: 0;
-    margin: 0 auto;
+body,
+div,
+body div,
+nav {
+  padding: 0;
+  margin: 0 auto;
 }

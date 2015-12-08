@@ -1,6 +1,5 @@
-<nav>
-  <div class="nav">
-    <ul class="nav-ul">
+<nav class="nav">
+    <ul>
       {% for site_page in site.pages %}
         {% unless site_page.exclude_from_nav %}
           <li>
@@ -11,8 +10,5 @@
           </li>
         {% endunless %}
       {% endfor %}
-
     </ul>
-  </div>
 </nav>
-
