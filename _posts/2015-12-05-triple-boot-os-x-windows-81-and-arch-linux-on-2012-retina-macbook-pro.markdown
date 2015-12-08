@@ -326,3 +326,7 @@ bootctl install
 Now, exit the `chroot`, and type `reboot`. You should now see a simple boot loader listing OS X and Arch Linux.
 
 I'll be following up with another post going over some post-installation tweaks specific to Arch Linux.
+
+## Updates
+
+**2015-12-08** Post
