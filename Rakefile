@@ -10,7 +10,7 @@ end
 desc 'Preview on local machine (build with --auto)'
 task :preview => :clean do
   Rake::Task[:tags].invoke
-  jekyll("serve --watch --destination #{options['destination']}")
+  jekyll("serve --drafts --watch --destination #{options['destination']}")
 end
 
 desc 'Build on local machine (build without --auto)'
