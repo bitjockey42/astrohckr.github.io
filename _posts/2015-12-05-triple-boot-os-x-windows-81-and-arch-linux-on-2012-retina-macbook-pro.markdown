@@ -329,4 +329,4 @@ I'll be following up with another post going over some post-installation tweaks 
 
 ## Updates
 
-**2015-12-08** Post
+**2015-12-08** [Post-installation tweaks](http://ajwrit.es/2015/12/08/arch-linux-macbook-pro-101-post-install-configuration-and-tweaks/)

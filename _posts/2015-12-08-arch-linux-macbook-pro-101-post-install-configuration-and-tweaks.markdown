@@ -9,7 +9,7 @@ tags:
   - configuration
 ---
 
-This is a continuation of my previous post on Arch Linux on the Macbook Pro 10,1. This focuses on post-installation tweaks you can make on Arch Linux for this particular model. These are also applicable to the Macbook Pro 10,2, the 13-inch model without the discrete graphics.
+This is a continuation of my [previous](http://ajwrit.es/2015/12/05/triple-boot-os-x-windows-81-and-arch-linux-on-2012-retina-macbook-pro/) post on Arch Linux on the Macbook Pro 10,1. This focuses on post-installation tweaks you can make on Arch Linux for this particular model. These are also applicable to the Macbook Pro 10,2, the 13-inch model without the discrete graphics.
 
 * TOC
 {:toc}
@@ -173,4 +173,4 @@ Without any tweaks, this system can run pretty hot. My palms were sweating bucke
 
 ## Close
 
-Hope this helps, and as before, please leave a comment if there are more tweaks that should be added. 
+Hope this helps, and as before, please leave a comment if there are more tweaks that should be added.
