@@ -44,7 +44,6 @@
 }
 
 .nav-item-active {
-  background: #485d6a;
-	color: #fff;
-  border-bottom: solid #485d6a 2px;
+  color: #485d6a;
+	background: #fff;
 }

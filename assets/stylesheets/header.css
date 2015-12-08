@@ -1,7 +1,9 @@
 .header {
     margin-top: 0;
+    padding-top: 10px;
     font-family: 'Anonymous Pro', sans-serif;
     background: #1c2132;
+    vertical-align: bottom;
 }
 
 .header-site-link {
