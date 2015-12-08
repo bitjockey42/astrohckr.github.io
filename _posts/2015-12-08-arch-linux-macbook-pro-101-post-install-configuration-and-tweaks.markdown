@@ -174,3 +174,5 @@ Without any tweaks, this system can run pretty hot. My palms were sweating bucke
 ## Close
 
 Hope this helps, and as before, please leave a comment if there are more tweaks that should be added.
+
+I've added notes on some of these tweaks to the [ArchWiki](https://wiki.archlinux.org/index.php/MacBookPro10,x) as well.
