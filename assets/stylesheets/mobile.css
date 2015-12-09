@@ -26,7 +26,6 @@
       display: list-item;
   }
   .nav-item {
-      width: 95%;
       padding-right: 0;
   }
   .nav-item-active {
