@@ -27,5 +27,6 @@
     }
     .nav-item {
         width: 95%;
+        border: 0;
     }
 }
