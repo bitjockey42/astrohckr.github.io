@@ -1,6 +1,6 @@
 .nav {
     text-align: right;
-    margin-bottom: -3px;
+    margin-bottom: -2px;
 }
 
 .nav ul {
@@ -19,14 +19,15 @@
 }
 
 .nav-item {
+    margin: 0;
     display: inline-block;
     color: #999;
     text-decoration: none;
     font-family: "Anonymous Pro", sans-serif;
     font-size: 12pt;
     text-transform: lowercase;
-    padding: 10px 15px 12px 15px;
-    border-bottom: 3px transparent;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 2px;
 }
 
 .nav-item-social {
@@ -38,7 +39,7 @@
 
 .nav-item:hover {
     color: #ddd;
-    border-bottom: solid red;
+    border-bottom: solid 2px #ccc;
 }
 
 .nav-item-social:hover {
@@ -48,5 +49,6 @@
 
 .nav-item-active {
   color: #fff;
-  border-bottom: solid #ccc;
+  background: #333;
+  border-bottom: solid 2px #ddd;
 }
