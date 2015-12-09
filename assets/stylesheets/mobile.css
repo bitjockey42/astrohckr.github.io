@@ -2,31 +2,33 @@
 
 @media only screen and (max-device-width: 480px) {
 /* Layout */
-    .center {
-        width: 100%;
-    }
-    .col-lg-1,
-    .col-lg-2,
-    .col-1,
-    .col-2 {
-        display: block;
-        width: 100%;
-    }
+  .center {
+      width: 100%;
+  }
+  .col-lg-1,
+  .col-lg-2,
+  .col-1,
+  .col-2 {
+      display: block;
+      width: 100%;
+  }
 
 /* Blog */
 .blog-content {
-    padding: 25px;
+  padding: 25px;
 }
 
 /* Navigation */
-    .nav {
-        text-align: left;
-    }
-    .nav-ul li {
-        display: list-item;
-    }
-    .nav-item {
-        width: 95%;
-        border: 0;
-    }
+  .nav {
+      text-align: left;
+  }
+  .nav-ul li {
+      display: list-item;
+  }
+  .nav-item {
+      width: 95%;
+  }
+  .nav-item-active {
+      border: 0;
+  }
 }
