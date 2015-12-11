@@ -155,7 +155,7 @@ $ systemctl enable tlp-sleep
 
 ### powertop
 
-Use `powertop` from the official repos, which you can use to both look at power consumption and tweak system configurations to increase battery life. `powertop` has a
+Use `powertop` from the official repos, which you can use to both look at power consumption and tweak system configurations to increase battery life. 
 
 You'll need to `--calibrate` to make sure the measurements from `powertop` are accurate. This will run a cycle that will turn off the display, wifi, to establish benchmarks.
 
@@ -171,8 +171,22 @@ Without any tweaks, this system can run pretty hot. My palms were sweating bucke
 
 [thermald](https://aur.archlinux.org/packages/thermald/) is an essential component of my Arch Linux system as it prevents overheating by triggering cooling at certain temperatures.
 
+### lm_sensors and sensors-detect
+
+`lm_sensors` is another package that can be used to help monitor the system temperature and configure cooling.
+
+{% highlight sh %}
+$ pacman -S lm_sensors
+{% endhighlight %}
+
+Then, run `sensors-detect`; press ENTER at each prompt to accept the default choices, until you hit the prompt confirming whether to generate `/etc/conf.d/lm_sensors`.
+
 ## Close
 
 Hope this helps, and as before, please leave a comment if there are more tweaks that should be added.
 
 I've added notes on some of these tweaks to the [ArchWiki](https://wiki.archlinux.org/index.php/MacBookPro10,x) as well.
+
+## Updates
+
+**2015-12-10** Added note about `lm_sensors` 
