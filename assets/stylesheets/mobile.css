@@ -17,8 +17,8 @@
   }
   
 /* Blog */
-.blog-content {
-  padding: 25px;
+.blog-row {
+	padding: 10px;
 }
 
 /* Navigation */
