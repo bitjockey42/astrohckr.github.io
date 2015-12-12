@@ -11,9 +11,14 @@
   .col-2 {
       display: block;
       width: 100%;
+	  text-align: left;
   }
   .header {
 	  text-align: center;
+  }
+
+  img {
+	  max-width: 320px;
   }
   
 /* Blog */
@@ -40,3 +45,4 @@
       border: 0;
   }
 }
+
